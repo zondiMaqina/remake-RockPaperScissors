@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Rock Paper Scissors
+    </title>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<!-- Font link-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+<body>
+<head role="heading">
+    <h1>
+        Rock Paper Scissors
+    </h1>
+</head>   
+    <main role="body-content">
+
+        <div class="computor">
+            <div class="profile" role="computor-profile">
+                <strong>
+                    Computor | <span class="compPoints">.</span>
+                </strong>
+                <img id="one" src="./images/profile.jpg" alt="computor-profile" width="90px" height="90px">
+            </div>
+
+            <div class="choice" role="computor-choice">
+
+            </div>    
+        </div>
+
+        <div class="state">
+            <strong id="statement">
+                .
+            </strong>
+        </div>
+
+        <div class="user">
+            <div class="profile">
+                <strong>
+                    You | <span class="userPoints">.</span>
+                </strong>
+                <img src="./images/myProfile.jpg" alt="your profile" width="90px" height="90px">
+            </div>
+            <div class="rounds">
+                <strong>
+                    Rounds | 
+                </strong>
+                <span id="round"></span>
+            </div>
+            <div class="user-choices">
+                <img src="./images/rock.svg" id="rock" alt="rock" width="145px" height="200px">
+
+                <img src="./images/paper.svg" id="paper" alt="paper" width="145px" height="200px">
+
+                <img src="./images/scissors.svg" id="scissors" alt="scissors" width="145px" height="200px">
+            </div>
+        </div>
+
+        <div class="winner">
+            <strong id="winner">
+                Who is the Winner?
+            </strong>
+        </div>
+
+        <div class="buttons">
+            <button id="startGame">Play Game</button>
+            <button id="endGame">Retry</button>
+        </div>
+    </main>
+   <script src="main.js"></script> 
+</body>
+</html>
