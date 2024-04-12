@@ -7,7 +7,7 @@
 
 h1{
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
     font-style: normal;
     text-align: center;
@@ -69,7 +69,7 @@ main{
 
 .compPoints, .userPoints{
     color: white;
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: 10px;
 }
 
@@ -130,7 +130,7 @@ button:hover{
 
 .rounds strong, #winner{
     color: #ffc300;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .choice{
@@ -143,7 +143,7 @@ button:hover{
 /*TYPOGRAPHY*/
 
 strong, .state, #round{
-    font-size: 2em;
+    font-size: 1.1em;
     letter-spacing: 1.5px;
     font-family: "Pixelify Sans", sans-serif;
     color: #fb5607;
@@ -157,7 +157,7 @@ strong, .state, #round{
     padding: 5px;
     text-align: center;
     font-weight: bolder;
-    font-size: 1.6em;
+    font-size: 1rem;
     border-bottom: 3px solid #ff8800;
     border-radius: 10px;
 }
